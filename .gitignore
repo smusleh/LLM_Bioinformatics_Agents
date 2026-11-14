@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/
+outputs/
+memory/
+bbaf601.pdf
+.claude/
