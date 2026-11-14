@@ -21,11 +21,11 @@ Click a badge, then **run the first code cell** (it clones this repo, installs p
 
 | Notebook | |
 |---|---|
-| 00 Data tour | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/__REPO__/blob/main/notebooks/00_data_tour.ipynb) |
-| 01 Single agent + tools | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/__REPO__/blob/main/notebooks/01_single_agent_tools.ipynb) |
-| 02 RAG, memory, self-verification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/__REPO__/blob/main/notebooks/02_rag_memory_selfverify.ipynb) |
-| 03 Multi-agent PI team | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/__REPO__/blob/main/notebooks/03_multi_agent_pi.ipynb) |
-| 04 Human-in-the-loop + critic | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/__REPO__/blob/main/notebooks/04_human_in_loop_critic.ipynb) |
+| 00 Data tour | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/smusleh/LLM_Bioinformatics_Agents/blob/main/notebooks/00_data_tour.ipynb) |
+| 01 Single agent + tools | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/smusleh/LLM_Bioinformatics_Agents/blob/main/notebooks/01_single_agent_tools.ipynb) |
+| 02 RAG, memory, self-verification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/smusleh/LLM_Bioinformatics_Agents/blob/main/notebooks/02_rag_memory_selfverify.ipynb) |
+| 03 Multi-agent PI team | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/smusleh/LLM_Bioinformatics_Agents/blob/main/notebooks/03_multi_agent_pi.ipynb) |
+| 04 Human-in-the-loop + critic | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/smusleh/LLM_Bioinformatics_Agents/blob/main/notebooks/04_human_in_loop_critic.ipynb) |
 
 Pick the LLM with `BACKEND` in that first cell:
 - `"ollama"` (default): free, no account. Choose **Runtime → Change runtime type → T4 GPU** first. The first run in a session takes ~3–5 min to install Ollama and download `qwen2.5:7b`. A 7B model sometimes skips steps (e.g. not saving findings in notebook 02).
@@ -51,7 +51,7 @@ tests/          offline test of the agent loop (fake client, no API key needed)
 
 ## Setup (WSL Ubuntu)
 ```bash
-git clone https://github.com/__REPO__.git
+git clone https://github.com/smusleh/LLM_Bioinformatics_Agents.git
 cd LLM_Bioinformatics_Agents
 conda create -n omics-agents -c conda-forge python=3.11 pip
 conda activate omics-agents
